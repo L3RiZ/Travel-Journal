@@ -49,6 +49,7 @@ h1 {
 .card--dot {
   font-size: 9.55px;
   color: #F55A5A;
+  padding-right: 0.4em;
 }
 
 .card--location, .card--url, .card--date, .card--description {
@@ -62,6 +63,7 @@ h1 {
 
 .card--location {
   letter-spacing: 0.17em;
+  padding-right: 1.1em;
 }
 
 .card--url {
@@ -71,6 +73,7 @@ h1 {
 
 .card--date {
   font-weight: 700;
+  padding: 1.4em 0 0.9em 0;
 }
 
 .card--description {
@@ -87,12 +90,18 @@ nav {
   height: 55px;
   background: #F55A5A;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-bottom: 2em;
 }
 
 /* CARDS */
 
 .card--section {
   display: flex;
+  width: 470px;
+  max-height: 200px;
+  border-bottom: 1px solid #F5F5F5;
+  padding: 1.5em 0;
+  margin: 0 auto;
 }
 
 .card--img {
@@ -102,7 +111,13 @@ nav {
   object-fit: cover;
 }
 
+.card--text_cnt {
+  padding: 1em 0 1em 2em;
+}
+
 .card--upper_text {
   display: flex;
+  align-items: center;
+  padding-bottom: 0.7em;
 }
 
